@@ -1,0 +1,31 @@
+body{
+    margin: 0px;
+    background-image: url(background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#clock{
+    color: rgb(0, 255, 128);
+    font-weight: bold;
+    font-size: 4em;
+    font-family: monospace;;
+    width: 100vh;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.562);
+    backdrop-filter: blur(10px);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 5px solid rgb(0, 255, 128);
+    border-bottom: 5px solid rgb(0, 255, 128);;
+}
+#today{
+    font-size: 0.5em;
+}
